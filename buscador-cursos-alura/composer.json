@@ -1,0 +1,11 @@
+{
+    "name": "leonardo/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "leonardopadilha"
+        }
+    ],
+    "require": {}
+}
