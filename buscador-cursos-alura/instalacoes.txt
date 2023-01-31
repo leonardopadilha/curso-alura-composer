@@ -1,1 +1,8 @@
 composer init
+
+composer require guzzlehttp/guzzle
+
+composer install
+composer update
+
+https://packagist.org/
