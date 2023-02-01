@@ -1,7 +1,22 @@
 <?php
 
-$client = new \GuzzleHttp\Client();
+require 'vendor/autoload.php';
+require 'src/Buscador.php';
 
-$resposta = $client->request('GET', 'https://www.alura.com.br/cursos-online-programacao/php');
+use Alura\BuscadorDeCursos\Buscador;
+//use GuzzleHttp\Client;
+use Symfony\Component\DomCrawler\Crawler;
 
-$html = $resposta->getBody();
+$httpClient = new \GuzzleHttp\Client([
+    'base_uri' => 'https://www.alura.com.br',
+    'verify' => false
+]);
+
+$crawler = new Crawler();
+
+$buscador = new Buscador($httpClient, $crawler);
+$cursos = $buscador->buscar('/cursos-online-programacao/php');
+
+foreach ($cursos as $curso) {
+    echo $curso . PHP_EOL;
+}
