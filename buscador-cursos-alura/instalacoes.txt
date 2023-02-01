@@ -1,1 +1,10 @@
 composer init
+
+composer require guzzlehttp/guzzle
+composer require symfony/css-selector
+
+composer install
+composer update
+composer require
+
+https://packagist.org/
