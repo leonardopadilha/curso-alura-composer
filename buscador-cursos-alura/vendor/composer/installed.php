@@ -3,7 +3,7 @@
         'name' => 'leonardo/buscador-cursos',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '2bbd56e5d77b187bd38481c09072dd4e9a7e9476',
+        'reference' => '89992d815bbe4878cced71cb8dde968c5bdd52d8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -40,7 +40,7 @@
         'leonardo/buscador-cursos' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '2bbd56e5d77b187bd38481c09072dd4e9a7e9476',
+            'reference' => '89992d815bbe4878cced71cb8dde968c5bdd52d8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
