@@ -7,7 +7,9 @@ composer install
 composer update
 composer require
 
-dumpautoload
-dump-autoload
+composer dumpautoload
+composer dump-autoload
+
+composer install --no-dev
 
 https://packagist.org/
