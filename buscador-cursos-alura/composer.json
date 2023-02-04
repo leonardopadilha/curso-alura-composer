@@ -26,6 +26,7 @@
         "phan/phan": "^5.4"
     },
     "scripts": {
+        "st" : "git status",
         "test": "phpunit src\\tests\\TestBuscadorDeCursos.php",
         "cs": "phpcs --standard=PSR12 src/",
         "phan": "phan --allow-polyfill-parser",
