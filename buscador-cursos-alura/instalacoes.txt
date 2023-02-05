@@ -19,3 +19,10 @@ https://phpunit.de/
 https://github.com/phan/phan
 https://github.com/squizlabs/PHP_CodeSniffer  -- (./vendor/bin/phpcs --standard=PSR12 .\src\)
 https://packagist.org/
+
+https://packagist.org/packages/guzzlehttp/guzzle
+https://packagist.org/packages/symfony/dom-crawler#v4.3.0-BETA1
+https://symfony.com/doc/current/components/dom_crawler.html
+
+
+git tag -a v1.0.0

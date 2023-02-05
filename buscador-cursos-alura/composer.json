@@ -41,5 +41,6 @@
     },
     "scripts-descriptions": {
         "check": "Roda as seguintes verificações no código:PHAN, PHPCS e PHPUNIT"
-    }
+    },
+    "license": "GPL-3.0"
 }
